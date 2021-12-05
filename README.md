@@ -13,4 +13,5 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 2b | Day 2: Dive! Part Two | [Day 2b](https://adventofcode.com/2021/day/2#part2) | Swift |
 | 3 | Day 3: Binary Diagnostic | [Day 3](https://adventofcode.com/2021/day/3) | Swift |
 | 3b | Day 3: Binary Diagnostic Part Two | [Day 3b](https://adventofcode.com/2021/day/3#part2) | Swift |
-
+| 4 | Day 4: Giant Squid | [Day 4](https://adventofcode.com/2021/day/4) | Swift |
+| 4b | Day 4: Giant Squid Part Two | [Day 4b](https://adventofcode.com/2021/day/4#part2) | Swift |
