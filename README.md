@@ -17,3 +17,5 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 4b | Day 4: Giant Squid Part Two | [Day 4b](https://adventofcode.com/2021/day/4#part2) | Swift |
 | 5 | Day 5: Hydrothermal Venture | [Day 5](https://adventofcode.com/2021/day/5) | Swift |
 | 5b | Day 5: Hydrothermal Venture Part Two | [Day 5b](https://adventofcode.com/2021/day/5#part2) | Swift |
+| 6 | Day 6: Lanternfish | [Day 6](https://adventofcode.com/2021/day/6) | Swift |
+| 6b | Day 6: Lanternfish Part Two | [Day 6b](https://adventofcode.com/2021/day/6#part2) | Swift |
