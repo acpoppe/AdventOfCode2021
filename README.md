@@ -19,3 +19,5 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 5b | Day 5: Hydrothermal Venture Part Two | [Day 5b](https://adventofcode.com/2021/day/5#part2) | Swift |
 | 6 | Day 6: Lanternfish | [Day 6](https://adventofcode.com/2021/day/6) | Swift |
 | 6b | Day 6: Lanternfish Part Two | [Day 6b](https://adventofcode.com/2021/day/6#part2) | Swift |
+| 7 | Day 7: The Treachery of Whales | [Day 7](https://adventofcode.com/2021/day/7) | Swift |
+| 7b | Day 7: The Treachery of Whales Part Two | [Day 7b](https://adventofcode.com/2021/day/7#part2) | Swift |
