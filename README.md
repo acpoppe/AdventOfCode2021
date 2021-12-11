@@ -21,3 +21,5 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 6b | Day 6: Lanternfish Part Two | [Day 6b](https://adventofcode.com/2021/day/6#part2) | Swift |
 | 7 | Day 7: The Treachery of Whales | [Day 7](https://adventofcode.com/2021/day/7) | Swift |
 | 7b | Day 7: The Treachery of Whales Part Two | [Day 7b](https://adventofcode.com/2021/day/7#part2) | Swift |
+| 8 | Day 8: Seven Segment Search | [Day 8](https://adventofcode.com/2021/day/8) | Swift |
+| 8b | Day 8: Seven Segment Search Part Two | [Day 8b](https://adventofcode.com/2021/day/8#part2) | Swift |
