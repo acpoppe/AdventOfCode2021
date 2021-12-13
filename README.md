@@ -16,3 +16,4 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 7 | Day 7: The Treachery of Whales | [Day 7](https://adventofcode.com/2021/day/7) - [Part 2](https://adventofcode.com/2021/day/7#part2) | Swift |
 | 8 | Day 8: Seven Segment Search | [Day 8](https://adventofcode.com/2021/day/8) - [Part 2](https://adventofcode.com/2021/day/8#part2)  | Swift |
 | 9 | Day 9: Smoke Basin | [Day 9](https://adventofcode.com/2021/day/9) - [Part 2](https://adventofcode.com/2021/day/9#part2)  | Swift |
+| 10 | Day 10: Syntax Scoring | [Day 10](https://adventofcode.com/2021/day/10) - [Part 2](https://adventofcode.com/2021/day/10#part2)  | Swift |
