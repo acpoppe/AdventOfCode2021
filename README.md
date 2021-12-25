@@ -18,3 +18,4 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 9 | Day 9: Smoke Basin | [Day 9](https://adventofcode.com/2021/day/9) - [Part 2](https://adventofcode.com/2021/day/9#part2)  | Swift |
 | 10 | Day 10: Syntax Scoring | [Day 10](https://adventofcode.com/2021/day/10) - [Part 2](https://adventofcode.com/2021/day/10#part2)  | Swift |
 | 11 | Day 11: Dumbo Octopus | [Day 11](https://adventofcode.com/2021/day/11) - [Part 2](https://adventofcode.com/2021/day/11#part2)  | Swift |
+| 12 | Day 12: Passage Pathing | [Day 12](https://adventofcode.com/2021/day/12) - [Part 2](https://adventofcode.com/2021/day/12#part2)  | Swift |
