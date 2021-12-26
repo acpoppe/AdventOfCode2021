@@ -65,8 +65,8 @@ func stepV2(template: String, times: Int) -> Int {
     var pairs: [String: Int] = [:]
     var newPairs: [String: Int] = [:]
     var charCounts: [String: Int] = [:]
-    var firstStringChar = template.first!
-    var lastStringChar = template.last!
+    let firstStringChar = template.first!
+    let lastStringChar = template.last!
     
     for charIndex in 0..<template.count {
         if (charIndex < template.count - 1) {
@@ -79,7 +79,7 @@ func stepV2(template: String, times: Int) -> Int {
         }
     }
     
-    for time in 0..<times {
+    for _ in 0..<times {
         newPairs = [:]
         for pair in pairs {
             let insert = pairRules[pair.key]
@@ -125,8 +125,6 @@ func stepV2(template: String, times: Int) -> Int {
     var sortedCharCounts = charCounts.sorted {
         return $0.value > $1.value
     }
-    
-    print(sortedCharCounts)
     
     let most = sortedCharCounts.remove(at: 0)
     let least = sortedCharCounts.remove(at: sortedCharCounts.count - 1)
