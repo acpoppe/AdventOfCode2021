@@ -19,3 +19,4 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 10 | Day 10: Syntax Scoring | [Day 10](https://adventofcode.com/2021/day/10) - [Part 2](https://adventofcode.com/2021/day/10#part2)  | Swift |
 | 11 | Day 11: Dumbo Octopus | [Day 11](https://adventofcode.com/2021/day/11) - [Part 2](https://adventofcode.com/2021/day/11#part2)  | Swift |
 | 12 | Day 12: Passage Pathing | [Day 12](https://adventofcode.com/2021/day/12) - [Part 2](https://adventofcode.com/2021/day/12#part2)  | Swift |
+| 13 | Day 13: Transparent Origami | [Day 13](https://adventofcode.com/2021/day/13) - [Part 2](https://adventofcode.com/2021/day/13#part2)  | Swift |
