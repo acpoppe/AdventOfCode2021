@@ -47,7 +47,7 @@ func step(template: String, times: Int) -> String {
     var templateCpy = Array(template)
     var modifiedTemplate = Array(template)
     
-    for time in 0..<times {
+    for _ in 0..<times {
         for charIndex in 0..<templateCpy.count {
             if (charIndex < templateCpy.count - 1) {
                 let check = String(templateCpy[charIndex]) + String(templateCpy[charIndex + 1])
