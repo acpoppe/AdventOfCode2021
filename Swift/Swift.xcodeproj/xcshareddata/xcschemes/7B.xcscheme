@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1320"
+   LastUpgradeVersion = "1340"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EF7A991275F2AE500A87239"
                BuildableName = "7B"
-               BlueprintName = "7B"
+               BlueprintName = "07B"
                ReferencedContainer = "container:Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EF7A991275F2AE500A87239"
             BuildableName = "7B"
-            BlueprintName = "7B"
+            BlueprintName = "07B"
             ReferencedContainer = "container:Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EF7A991275F2AE500A87239"
             BuildableName = "7B"
-            BlueprintName = "7B"
+            BlueprintName = "07B"
             ReferencedContainer = "container:Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
