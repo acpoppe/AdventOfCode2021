@@ -59,8 +59,10 @@ struct Grid {
   }
   
   var visited = Set<Node>()
+  var visitedCount = 0
   
   mutating func visitNode(_ node: Node, from: Node?) {
+    visitedCount += 1
     if (from == nil) {
       visited.insert(node)
     } else {
@@ -107,9 +109,9 @@ func run() -> Int {
   var percentCompleted = 0
   
   // Run until we have visited all the points
-  while (map.visited.count != (map.width * map.height)) {
-    // print("Visited Count: \(map.visited.count)")
-    let currentPercent = Int(Double(map.visited.count) / Double(map.width * map.height) * 100)
+  while (map.visitedCount <= (map.width * map.height)) {
+    // print("Visited Count: \(map.visitedCount)")
+    let currentPercent = Int(Double(map.visitedCount) / Double(map.width * map.height) * 100)
     if currentPercent > percentCompleted {
       percentCompleted = currentPercent
       print("Percent completed: \(percentCompleted)")
@@ -126,6 +128,8 @@ func run() -> Int {
       // Get all of the possible node coordinates next to each visited, not all are valid
       let neighborsCoords = visitedNode.neighbors()
       
+      var allNeighborsVisited = true
+      
       // For each of those neighbors
       for neighborCoords in neighborsCoords {
         
@@ -133,7 +137,9 @@ func run() -> Int {
         let toCheck = map.getNodeAt(x: neighborCoords.x, y: neighborCoords.y)
         
         // If neighbor is invalid (IE nil) or has already been visited
-        if (toCheck != nil && !map.visited.contains(toCheck!)) {
+        if (toCheck != nil && !toCheck!.visited && !map.visited.contains(toCheck!)) {
+          
+          allNeighborsVisited = false
           
           // See what the path danger would be
           let possibleNodeTotal = visitedNode.dangerToReach + toCheck!.dangerOnPoint
@@ -146,6 +152,9 @@ func run() -> Int {
           }
         }
       }
+      if allNeighborsVisited {
+        map.visited.remove(visitedNode)
+      }
     }
     if nextNodeToVisit != nil {
       map.visitNode(nextNodeToVisit!, from: visitedFromNode)
@@ -157,12 +166,25 @@ func run() -> Int {
 let start = AOC.startTimer()
 let input = AOC.getInputFromBundleFile(inputFileName, fileType: "txt")
 var grid: [[Node]] = []
-for (yIndex, row) in input.enumerated() {
-  var gridRow: [Node] = []
-  for (xIndex, char) in row.enumerated() {
-    gridRow.append(Node(point: Point(x: xIndex, y: yIndex), dangerOnPoint: Int(String(char))!))
+for yTileIndex in 0..<5 {
+  for (yIndex, row) in input.enumerated() {
+    var gridRow: [Node] = []
+    for xTileIndex in 0..<5 {
+      for (xIndex, char) in row.enumerated() {
+        var dangerOnPoint = (Int(String(char))! + xTileIndex + yTileIndex)
+        var tens = 0
+        while dangerOnPoint > 9 {
+          dangerOnPoint = dangerOnPoint - 10
+          tens += 1
+        }
+        dangerOnPoint += tens
+        let xPos = xIndex + (row.count * xTileIndex)
+        let yPos =  yIndex + (input.count * yTileIndex)
+        gridRow.append(Node(point: Point(x: xPos, y: yPos), dangerOnPoint: dangerOnPoint))
+      }
+    }
+    grid.append(gridRow)
   }
-  grid.append(gridRow)
 }
 
 var map = Grid(grid: grid)
