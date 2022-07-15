@@ -8,13 +8,13 @@
 import Foundation
 
 class AOC {
-  static func getInputFromBundleFile(_ fileName: String, fileType: String) -> [String] {
+  static func getInputFromBundleFile(_ fileName: String, fileType: String = "txt") -> [String] {
     guard let path = Bundle.main.path(forResource: fileName, ofType: fileType) else {
-      preconditionFailure("Couldn't get a path to input.txt")
+      preconditionFailure("Couldn't get a path to \(fileName).\(fileType)")
     }
     
     guard FileManager.default.fileExists(atPath: path) else {
-      preconditionFailure("The file input.txt is missing")
+      preconditionFailure("The file \(fileName).\(fileType) is missing")
     }
     
     guard let content = try? String(contentsOfFile: path, encoding:String.Encoding.utf8) else {
@@ -30,7 +30,7 @@ class AOC {
     return input
   }
   
-  static func getIntInputFromBundleFile(_ fileName: String, fileType: String) -> [Int] {
+  static func getIntInputFromBundleFile(_ fileName: String, fileType: String = "txt") -> [Int] {
     let input = getInputFromBundleFile(fileName, fileType: fileType)
     
     var intInput: [Int] = []
