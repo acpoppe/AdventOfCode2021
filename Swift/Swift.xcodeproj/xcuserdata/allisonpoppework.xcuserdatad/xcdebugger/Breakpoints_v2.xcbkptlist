@@ -3,4 +3,23 @@
    uuid = "86BD2285-768B-44D3-8C28-21E2C5372D4E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51231297-3745-47F0-97F0-C84173AECFDC"
+            shouldBeEnabled = "No"
+            condition = "yVelocity == 99"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "17A/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "maxHeightAcheived(xVelocity:yVelocity:target:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
