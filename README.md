@@ -24,3 +24,4 @@ I don't have any specific objective with these, so projects may be in whatever l
 | 15 | Day 15: Chiton | [Day 15](https://adventofcode.com/2021/day/15) - [Part 2](https://adventofcode.com/2021/day/15#part2)  | Swift |
 | 16 | Day 16: Packet Decoder | [Day 16](https://adventofcode.com/2021/day/16) - [Part 2](https://adventofcode.com/2021/day/16#part2)  | Swift |
 | 17 | Day 17: Trick Shot | [Day 17](https://adventofcode.com/2021/day/17) - [Part 2](https://adventofcode.com/2021/day/17#part2)  | Swift |
+| 18 | Day 18: Snailfish | [Day 18](https://adventofcode.com/2021/day/18) - [Part 2](https://adventofcode.com/2021/day/18#part2)  | Swift |

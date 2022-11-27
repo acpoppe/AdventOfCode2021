@@ -134,6 +134,20 @@
 		F79457A42880330700A1835F /* testInput3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79457A2288032F800A1835F /* testInput3.txt */; };
 		F79457A52880330D00A1835F /* testInput2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79457A1288032E700A1835F /* testInput2.txt */; };
 		F79457A62880330D00A1835F /* testInput3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79457A2288032F800A1835F /* testInput3.txt */; };
+		F7A53C202930FADD00AFC6B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A53C1F2930FADD00AFC6B5 /* main.swift */; };
+		F7A53C2B2930FAEB00AFC6B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A53C2A2930FAEB00AFC6B5 /* main.swift */; };
+		F7A53C2F2930FAFA00AFC6B5 /* AOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794577F2880160E00A1835F /* AOC.swift */; };
+		F7A53C302930FAFB00AFC6B5 /* AOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794577F2880160E00A1835F /* AOC.swift */; };
+		F7A53C3629317D3800AFC6B5 /* testInput4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3429317CE600AFC6B5 /* testInput4.txt */; };
+		F7A53C3729317D3900AFC6B5 /* testInput.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3129317C8900AFC6B5 /* testInput.txt */; };
+		F7A53C3829317D3900AFC6B5 /* testInput2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3229317CA600AFC6B5 /* testInput2.txt */; };
+		F7A53C3929317D3900AFC6B5 /* testInput3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3329317CD000AFC6B5 /* testInput3.txt */; };
+		F7A53C3A29317D3900AFC6B5 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3529317D2C00AFC6B5 /* input.txt */; };
+		F7A53C3B29317D4300AFC6B5 /* testInput4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3429317CE600AFC6B5 /* testInput4.txt */; };
+		F7A53C3C29317D4300AFC6B5 /* testInput.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3129317C8900AFC6B5 /* testInput.txt */; };
+		F7A53C3D29317D4300AFC6B5 /* testInput2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3229317CA600AFC6B5 /* testInput2.txt */; };
+		F7A53C3E29317D4300AFC6B5 /* testInput3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3329317CD000AFC6B5 /* testInput3.txt */; };
+		F7A53C3F29317D4300AFC6B5 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7A53C3529317D2C00AFC6B5 /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -530,6 +544,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7A53C1B2930FADD00AFC6B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F7A53C3629317D3800AFC6B5 /* testInput4.txt in CopyFiles */,
+				F7A53C3729317D3900AFC6B5 /* testInput.txt in CopyFiles */,
+				F7A53C3829317D3900AFC6B5 /* testInput2.txt in CopyFiles */,
+				F7A53C3929317D3900AFC6B5 /* testInput3.txt in CopyFiles */,
+				F7A53C3A29317D3900AFC6B5 /* input.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A53C262930FAEB00AFC6B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F7A53C3B29317D4300AFC6B5 /* testInput4.txt in CopyFiles */,
+				F7A53C3C29317D4300AFC6B5 /* testInput.txt in CopyFiles */,
+				F7A53C3D29317D4300AFC6B5 /* testInput2.txt in CopyFiles */,
+				F7A53C3E29317D4300AFC6B5 /* testInput3.txt in CopyFiles */,
+				F7A53C3F29317D4300AFC6B5 /* input.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -645,6 +687,15 @@
 		F794579A28801D3300A1835F /* testInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput.txt; sourceTree = "<group>"; };
 		F79457A1288032E700A1835F /* testInput2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput2.txt; sourceTree = "<group>"; };
 		F79457A2288032F800A1835F /* testInput3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput3.txt; sourceTree = "<group>"; };
+		F7A53C1D2930FADD00AFC6B5 /* 18A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 18A; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A53C1F2930FADD00AFC6B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F7A53C282930FAEB00AFC6B5 /* 18B */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 18B; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A53C2A2930FAEB00AFC6B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F7A53C3129317C8900AFC6B5 /* testInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput.txt; sourceTree = "<group>"; };
+		F7A53C3229317CA600AFC6B5 /* testInput2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput2.txt; sourceTree = "<group>"; };
+		F7A53C3329317CD000AFC6B5 /* testInput3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput3.txt; sourceTree = "<group>"; };
+		F7A53C3429317CE600AFC6B5 /* testInput4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput4.txt; sourceTree = "<group>"; };
+		F7A53C3529317D2C00AFC6B5 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		F7E613ED287F1A14001CD3D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -887,6 +938,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7A53C1A2930FADD00AFC6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A53C252930FAEB00AFC6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -983,6 +1048,8 @@
 				F794579328801D0900A1835F /* 16B */,
 				F74534692881A81D005BA735 /* 17A */,
 				F74534742881A825005BA735 /* 17B */,
+				F7A53C1E2930FADD00AFC6B5 /* 18A */,
+				F7A53C292930FAEB00AFC6B5 /* 18B */,
 				9E362AC227597C9300526A42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1024,6 +1091,8 @@
 				F794579228801D0900A1835F /* 16B */,
 				F74534682881A81D005BA735 /* 17A */,
 				F74534732881A825005BA735 /* 17B */,
+				F7A53C1D2930FADD00AFC6B5 /* 18A */,
+				F7A53C282930FAEB00AFC6B5 /* 18B */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1269,6 +1338,27 @@
 				F7453462288188B7005BA735 /* moreTestInput.txt */,
 			);
 			path = 16B;
+			sourceTree = "<group>";
+		};
+		F7A53C1E2930FADD00AFC6B5 /* 18A */ = {
+			isa = PBXGroup;
+			children = (
+				F7A53C1F2930FADD00AFC6B5 /* main.swift */,
+				F7A53C3429317CE600AFC6B5 /* testInput4.txt */,
+				F7A53C3129317C8900AFC6B5 /* testInput.txt */,
+				F7A53C3229317CA600AFC6B5 /* testInput2.txt */,
+				F7A53C3329317CD000AFC6B5 /* testInput3.txt */,
+				F7A53C3529317D2C00AFC6B5 /* input.txt */,
+			);
+			path = 18A;
+			sourceTree = "<group>";
+		};
+		F7A53C292930FAEB00AFC6B5 /* 18B */ = {
+			isa = PBXGroup;
+			children = (
+				F7A53C2A2930FAEB00AFC6B5 /* main.swift */,
+			);
+			path = 18B;
 			sourceTree = "<group>";
 		};
 		F7E613EB287F19C7001CD3D1 /* 15A */ = {
@@ -1870,6 +1960,40 @@
 			productReference = F794579228801D0900A1835F /* 16B */;
 			productType = "com.apple.product-type.tool";
 		};
+		F7A53C1C2930FADD00AFC6B5 /* 18A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A53C232930FADD00AFC6B5 /* Build configuration list for PBXNativeTarget "18A" */;
+			buildPhases = (
+				F7A53C192930FADD00AFC6B5 /* Sources */,
+				F7A53C1A2930FADD00AFC6B5 /* Frameworks */,
+				F7A53C1B2930FADD00AFC6B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 18A;
+			productName = 18A;
+			productReference = F7A53C1D2930FADD00AFC6B5 /* 18A */;
+			productType = "com.apple.product-type.tool";
+		};
+		F7A53C272930FAEB00AFC6B5 /* 18B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A53C2C2930FAEB00AFC6B5 /* Build configuration list for PBXNativeTarget "18B" */;
+			buildPhases = (
+				F7A53C242930FAEB00AFC6B5 /* Sources */,
+				F7A53C252930FAEB00AFC6B5 /* Frameworks */,
+				F7A53C262930FAEB00AFC6B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 18B;
+			productName = 18B;
+			productReference = F7A53C282930FAEB00AFC6B5 /* 18B */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1877,8 +2001,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					9E11C3D42764ED6C00900257 = {
 						CreatedOnToolsVersion = 13.1;
@@ -1979,6 +2103,12 @@
 					F794579128801D0900A1835F = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					F7A53C1C2930FADD00AFC6B5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F7A53C272930FAEB00AFC6B5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 9E362ABC27597C9300526A42 /* Build configuration list for PBXProject "Swift" */;
@@ -2028,6 +2158,8 @@
 				F794579128801D0900A1835F /* 16B */,
 				F74534672881A81D005BA735 /* 17A */,
 				F74534722881A825005BA735 /* 17B */,
+				F7A53C1C2930FADD00AFC6B5 /* 18A */,
+				F7A53C272930FAEB00AFC6B5 /* 18B */,
 			);
 		};
 /* End PBXProject section */
@@ -2311,6 +2443,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7A53C192930FADD00AFC6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A53C202930FADD00AFC6B5 /* main.swift in Sources */,
+				F7A53C2F2930FAFA00AFC6B5 /* AOC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A53C242930FAEB00AFC6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A53C2B2930FAEB00AFC6B5 /* main.swift in Sources */,
+				F7A53C302930FAFB00AFC6B5 /* AOC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -2319,6 +2469,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2331,6 +2482,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2343,6 +2495,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2355,6 +2508,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2367,6 +2521,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2379,6 +2534,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2391,6 +2547,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2403,6 +2560,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2415,6 +2573,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2427,6 +2586,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2439,6 +2599,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2451,6 +2612,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2492,6 +2654,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -2553,6 +2716,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2578,6 +2742,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2590,6 +2755,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2602,6 +2768,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2614,6 +2781,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2626,6 +2794,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2638,6 +2807,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2650,6 +2820,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2662,6 +2833,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2675,6 +2847,7 @@
 				CODE_SIGN_ENTITLEMENTS = 12A/12A.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2688,6 +2861,7 @@
 				CODE_SIGN_ENTITLEMENTS = 12A/12A.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2700,6 +2874,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2712,6 +2887,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2724,6 +2900,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2736,6 +2913,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2748,6 +2926,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2760,6 +2939,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2772,6 +2952,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2784,6 +2965,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2796,6 +2978,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2808,6 +2991,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2820,6 +3004,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2832,6 +3017,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2844,6 +3030,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2856,6 +3043,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2868,6 +3056,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2880,6 +3069,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2892,6 +3082,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2904,6 +3095,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2916,6 +3108,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2928,6 +3121,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2940,6 +3134,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2952,6 +3147,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2964,6 +3160,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2976,6 +3173,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2988,6 +3186,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3000,6 +3199,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3012,6 +3212,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3024,6 +3225,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3036,6 +3238,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3048,6 +3251,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3060,6 +3264,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3072,6 +3277,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3084,6 +3290,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3096,6 +3303,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3106,7 +3314,9 @@
 		F745346D2881A81D005BA735 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3118,7 +3328,9 @@
 		F745346E2881A81D005BA735 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3130,7 +3342,9 @@
 		F74534782881A825005BA735 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3142,7 +3356,9 @@
 		F74534792881A825005BA735 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3156,6 +3372,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3168,6 +3385,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3181,6 +3399,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3200,6 +3419,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3215,7 +3435,9 @@
 		F794578C28801CF500A1835F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3227,7 +3449,9 @@
 		F794578D28801CF500A1835F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3239,7 +3463,9 @@
 		F794579728801D0900A1835F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -3251,10 +3477,72 @@
 		F794579828801D0900A1835F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV8DAQSXEC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F7A53C212930FADD00AFC6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JV8DAQSXEC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7A53C222930FADD00AFC6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JV8DAQSXEC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F7A53C2D2930FAEB00AFC6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JV8DAQSXEC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7A53C2E2930FAEB00AFC6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JV8DAQSXEC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -3574,6 +3862,24 @@
 			buildConfigurations = (
 				F794579728801D0900A1835F /* Debug */,
 				F794579828801D0900A1835F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A53C232930FADD00AFC6B5 /* Build configuration list for PBXNativeTarget "18A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A53C212930FADD00AFC6B5 /* Debug */,
+				F7A53C222930FADD00AFC6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A53C2C2930FAEB00AFC6B5 /* Build configuration list for PBXNativeTarget "18B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A53C2D2930FAEB00AFC6B5 /* Debug */,
+				F7A53C2E2930FAEB00AFC6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
